@@ -84,7 +84,7 @@ html{
   /* Small devices (portrait tablets and large phones, 600px and up) */
  @media only screen and (min-width: 600px) {
  html{
-      font-size: 68%;
+      /*font-size: 68%;*/
      }
 img{
     width: 50%;
@@ -94,19 +94,19 @@ img{
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
  html{
-       font-size: 83%;
+       /*font-size: 83%;*/
      }
       }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 html{
-font-size: 82%;
+/*font-size: 82%;*/
     }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
  @media only screen and (min-width: 1200px) {
  html {
-      font-size: 110%;
+      /*font-size: 110%;*/
       }
  }
