@@ -1,0 +1,112 @@
+:root {
+	--bs-nav-pills-link-active-bg: red;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+.container img{
+	margin-top:40px;
+	width: 500px;
+	height: 400px;
+	margin-left: 40px;
+	margin-right: 50px;
+	padding-bottom: 40px;
+	border-radius: 70px;
+}
+
+.hero p{
+	color: green;
+	float: right;
+	font-size: 20px;
+	margin-bottom: 50px;
+	margin-right: 70px;
+}
+
+.isi button{
+	color: white;
+	background-color: green;
+	height: 40px;
+	width: 90px;
+	border-radius: 10px;
+}
+
+.isi p{
+	font-size: 22px;
+}
+
+.isi button a{
+	padding-top: 30px;
+	text-decoration: none;
+	color: white;
+}
+
+.isi h1{
+	color: green;
+}
+
+.isi button:hover{
+	background-color: black;
+}
+
+.col{
+	transition: 0.8s;
+}
+ 
+.col:hover{
+	transform: scale(1.1);
+}
+
+.tentang{
+	height: 1000hv;
+	text-align: center;
+	color: green;
+}
+
+.tentang a img{
+	width: 40px;
+	height: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+html{
+      font-size: 80%;
+     }
+ h1{             
+    font-size: 2rem!important;
+    }
+ img{
+     width: 80% !important;
+    }
+ }
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+ html{
+      font-size: 68%;
+     }
+img{
+    width: 50%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+ html{
+       font-size: 83%;
+     }
+      }
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+html{
+font-size: 82%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+ html {
+      font-size: 110%;
+      }
+ }
