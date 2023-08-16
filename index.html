@@ -3,189 +3,199 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-    <!-- CSS Framework -->
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="./project/assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Aplikasi Perkantoran</title>
+    <!-- Bootstrap 5.3.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Aplikasi Perkantoran | Landing Page</title>
 </head>
-<body>                
-    <!-- Start Navbar -->
-    <nav class="navbar navbar-expand-lg bg-nav-custom bg-success fixed-top nav-pills" id="nav">
-      <div class="container">
-        <a class="navbar-brand text-light" href="#">Build Tech Borneo</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active text-light" aria-current="page" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="#About">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="#Course">Course</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="#Contact">Contact</a>
-            </li>
-          </ul>
+
+    <body class="overflow-x-hidden">                
+      <!-- Start Navbar -->
+      <nav class="navbar navbar-expand-lg bg-nav-custom bg-success fixed-top nav-pills" id="nav">
+        <div class="container">
+          <a class="navbar-brand text-light fw-bold" href="#home">Build Tech Borneo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto fw-semibold">
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#About">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#Course">Course</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#Contact">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-     <!-- End navbar -->                                                                                                                                                                                  
-      <!-- Start Hero -->
+      </nav>
+      <!-- End navbar -->                                                                                                                                                                                  
+
       <div data-bs-spy="scroll" data-bs-target="#nav" data-bs-offset="0" class="scrollspy-example" tabindex="0">
-      <section class="hero d-flex align-items-center pt-5" style="height:100vh!important;" id="home">
+        <!-- Start Hero -->
+        <section class="d-flex align-items-center vh-100" id="home">
           <div class="container">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdnwIatkUl-kpTmuUJ3XcnVj5j3GswoqT4xw&usqp=CAU ">
+            <div class="row align-items-center">
+              <div class="col-md-4 fromLeft">
+                <img class="img-fluid home-img rounded-5 shadow" src="./img/home.jpeg">
+              </div>
+              <div class="offset-md-1 col-md-6 text-green fromRight">
+                <h1 class="text-dark fw-bold">Borneo Training Course</h1>
+                <p> <b>Bingung Cari Tempat Kursus Dimana? Disini aja.</b><br>
+                  Build Training Course ini menyediakan berbagai kursus komputer contohnya seperti aplikasi perkantoran,
+                  aplikasi perkantoran ini mempelajari aplikasi microsoft Office seperti <b>(Word, Excel, Power Point), Windows, Jaringan, Internet & Desain Online.</b>
+                </p>
+                <a class="btn btn-success shadow border-dark" href="#Course">Course</a>
+              </div>
+            </div>
           </div>
-          <div class="isi ">
-            <h1>Borneo Training Course</h1>
-            <p> <b>Bingung Cari Tempat Kursus Dimana? Disini aja.</b><br>
-              Build Training Course ini menyediakan berbagai kursus komputer contohnya seperti aplikasi perkantoran,
-              aplikasi perkantoran ini mempelajari aplikasi microsoft Office seperti <b>(Word, Excel, Power Point), Windows, Jaringan, Internet & Desain Online.</b>
-           </p>
-            <button><a href="#Course">Course</a></button>
+        </section>
+        <!-- End Hero -->
+
+        <!-- Start About Section -->
+        <section class="d-flex align-items-center bg-body-secondary vh-100 fs-5" id="About" >
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-md-5 fromBottom">
+                <h1 class="fw-bold text-dark text-center">About Us</h1>
+                <p class="text-center text-green">Build Tech Borneo(BTB) adalah sebuah perusahaan yang bergerak di bidang Teknologi, yaitu  pembuatan aplikasi (Desktop PC/Laptop, Website, Android & iOS), pengembangan perangkat IoT & Smarthome, Desain & Percetakan, Periklanan, dan Kursus Komputer.</p>
+                <div class="media-sosial d-flex justify-content-center fs-2">
+                  <a href="#" class="text-dark"><i class="bi bi-instagram"></i></a>
+                  <a class="mx-3" href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#" class="text-danger"><i class="bi bi-youtube"></i></a>
+                </div>
+              </div>
+            </div>         
           </div>
-      </section>
-      <!-- End Hero -->
+        </section>
+        <!-- End About Section -->
 
-      <section class="tentang d-flex align-items-center bg-light" id="About" style="height:70vh!important;">
-        <div>
-        <h1>About Us</h1>
-         <div class="row justify-content-center">
-        <div class="col-5">
-          <p>Build Tech Borneo(BTB) adalah sebuah perusahaan yang bergerak di bidang Teknologi, yaitu  pembuatan aplikasi (Desktop PC/Laptop, Website, Android & iOS), pengembangan perangkat IoT & Smarthome, Desain & Percetakan, Periklanan, dan Kursus Komputer.</p>
-          </div>
-          </div>         
-        <a href=""><img src="data:image/png;base64,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"></a>
-        <a href=""><img src="data:image/png;base64,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"></a>
-        <a href=""><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAeFBMVEX/AAD/////u7v/6+v/0ND/aWn/mZn/zc3/9fX/h4f/5ub/+Pj/tbX/t7f/oKD/ODj/Kir/3d3/wMD/MzP/UVH/1dX/yMj/qan/lJT/TU3/gID/Fxf/PT3/eHj/Dg7/jY3/ZWX/Q0P/XV3/IiL/cXH/q6v/X1//eXnZjuaVAAAE20lEQVR4nO2d63aiQAyAOyKgXAVF0Lbrtbvv/4YLZ9didUDQQEjI9689RyffwcCQub0p7rxhB9A5YkgfMaSPGNJHDOkjhvQRQ/qIIX3EkD5iSB8xpI8Y0kcM6SOG9BFD+oghfcSQPmJIHzGkjxi+jHEhml4Tff+/6wBeMXTdWU6SrD0/DQIry3Z709yEYbh4e45F/tmNae53WWYFQep76yQpmnDd3gxdw4mi2LPm27O5OZzenzRpy/vpsDHP27nlxVHkGO18Gxo6dmx9HjfLvpzqeF9ujp9WbDtQhnZqPvur65qFmdovGjrBCtviIaug/mLWGdp77Ogbsq+7ktWG0fAvX8kqam+4xQ66JduWhk6IHXFrwop01BuuscN9inVzQw871ifxmhr62JE+jd/MMMGO8wWSJoYudpQvcd9nvTc8Ygf5EsfHhlTvMhfu7ja3hu4JO8QXOd3+Tm8NA+wIXyZ4YIgdHwD1htSzsMCrNTxghwfAoc7QwI4OBKPGcIIdHAiTGsMzdnAgnGsMP7CDA+Gj2tDBjg0Ip9LQxg4NCLvS0MIODQir0vATOzQgPisNedxobm4114Yz7MjAmFUY8ujRFBgVhjRriDrWFYYpdmBgpBWGXB4WPx8X14Y8eqUF5wrDJXZgYCwrDLHjAmSshnwehz8eiFeGlMcrbkm0hjF0M4hTOGKtIfig2iRGm37jaw3Ba6UTpTLo72yIpzWcQzdT1LwMnG7EXGtoQjfzr6qXbKC/twGm1hB84PBSt4x/QX/zQ45aQ/A3/LIy23uf/kNrCH5zv6o9Gz2XgBa9GyoV9ZqOWsMZeLb8HD9QcY/Dy79mGIZ9pqPWMAJv5s5QGb3NB4yQDPub06kznIK3ojPM07GXDvkU0VCpoIcegM4QfuCpylDNwLvAd5TDTyiGSjldp6POEL7iXWOYN9dtZa+sepeGX+Ct1BoqlXaZjl8aQ/ia/gPDTtOxrOtjGubp2NlUT53hDryVx4Z5OnY0KrvTGML/ZJoY5vnfSTqWZQx8w27ScVCGeTr+Bm9bZwjf7W9smKcj9KTIcpFQaQheamtjqJQHm45lsW0whsBpMkhDZezh2h6mYf4GB5aOQzVUygcazBmuoVIwd5zhGnK/htzzkP29lPvzsIc+Da9+6R+NIf93C3k/bM/Q3vH512n419r410v517z5j1vwH3viP37IfwyY/zg+/7kY/OfT8J8TxX9eG/+5iSOYX8p/jjD/ed785+rzX2/Bf80M/3VP/Neu8V9/yH8NKf91wCMw5L8en/+eCvz3xeC/twn//Wn4PBCr9hjiv08U/72+RrBfG5fHRfWee/z3TeS/9yWTW03N/qVMeqZ1e9Dy30eYR6+mbi9o/vt5s9iT3a815FDJuDW6+Zv/2Qj8z7cgn4kPzygZwTkzIzgriPT4RaPznij33XSzsHSGZO82jc9do1pXbHF23gjOP1T8z7BUIziHVPE/S7aA+3nA/68k6zOdy4vJ+Vzuaxifra73dYvD65Nk7flpEFhZttub5ioMw2d/1Yv8syvT3O+yzAqC1PfsJCmacNs5wRk2wrgQTa+Jvv/fdQCdG6IjhvQRQ/qIIX3EkD5iSB8xpI8Y0kcM6SOG9BFD+oghfcSQPmJIHzGkjxjSRwzpI4b0EUP6iCF9/gKCNIdvAhrz/wAAAABJRU5ErkJggg=="></a>
-      </div>
-      </section>
-
-
-        
-        <section class="jurusan mt-5 mb-3  d-flex align-items-center" style="height:70vh!important;" id="Course">
+        <!-- Start Course Section -->
+        <section class="d-flex align-items-center pt-5" id="Course">
           <div class="container text-center mb-5 text-success ">
-              <h2>Aplikasi Perkantoran(Office)</h2>
+              <h2 class="fw-bold text-dark">Aplikasi Perkantoran (Office)</h2>
+              <p class="fw-semibold mb-5">Ada beberapa pilihan paket yang tersedia :</p>
               <div class="row">
-                <div class="col">
-                  <div class="card shadow">
-                    <div class="card-body"> 
-                      <h3>Paket Basic</h3>
-                      <p>15 Kali Pertemuan</p>
-                       <p>Rp.765.000</p> 
-                       <button class="col-5 rounded  btn btn-success"  onclick="window.location.href='https://wa.me/6283153318613'">Pesan</button>
+                  <div class="col-md-3 fromLeft">
+                    <div class="card shadow">
+                      <div class="card-body"> 
+                        <h2 class="fw-bold"> Basic</h2>
+                        <p>15 Kali Pertemuan</p>
+                        <p class="fw-semibold">Rp.765.000</p> 
+                        <a href="https://wa.me/6283153318613" class="btn btn-success rounded border">Pesan</a>
+                      </div>
                     </div>
                   </div>
-                </div>
 
-                <div class="col">
-                  <div class="p"></div>
-                  <div class="card shadow">
-                    <div class="card-body">
-                      <h3>Paket Standard</h3>
-                      <p>25 Kali Pertemuan</p>
-                      <p>Rp.1.305.000</p>
-                      <button class="col-5 rounded  btn btn-success" onclick="window.location.href='https://wa.me/6283153318613'">Pesan</button>
+                  <div class="col-md-3 fromLeft">
+                    <div class="card shadow">
+                      <div class="card-body">
+                        <h2 class="fw-bold"> Standard</h2>
+                        <p>25 Kali Pertemuan</p>
+                        <p class="fw-semibold">Rp.1.305.000</p>
+                        <a href="https://wa.me/6283153318613" class="btn btn-success rounded border">Pesan</a>
+                      </div>
                     </div>
                   </div>
-                </div>
 
-                 <div class="col">
-                  <div class="p"></div>
-                  <div class="card shadow">
-                    <div class="card-body">
-                      <h3>Paket Pro</h3>
-                      <p>36 Kali Pertemuan</p>
-                      <p>Rp.1.800.000</p>
-                      <button class="col-5 rounded  btn btn-success"  onclick="window.location.href='https://wa.me/6283153318613'">Pesan</button>
+                  <div class="col-md-3 fromRight">
+                    <div class="card shadow">
+                      <div class="card-body">
+                        <h2 class="fw-bold"> Pro</h2>
+                        <p>36 Kali Pertemuan</p>
+                        <p class="fw-semibold">Rp.1.800.000</p>
+                        <a href="https://wa.me/6283153318613" class="btn btn-success rounded border">Pesan</a>
+                      </div>
                     </div>
                   </div>
-                </div>
 
-                <div class="col">
-                  <div class="p"></div>
-                  <div class="card shadow">
-                    <div class="card-body">
-                      <h3>Paket Workshop</h3>
-                      <p>10 jam Pertemuan</p>
-                      <p>Rp.850.000</p>
-                      <button class="col-5 rounded btn btn-success"  onclick="window.location.href='https://wa.me/6283153318613'">Pesan</button>
+                  <div class="col-md-3 fromRight">
+                    <div class="card shadow">
+                      <div class="card-body">
+                        <h2 class="fw-bold"> Workshop</h2>
+                        <p>10 jam Pertemuan</p>
+                        <p class="fw-semibold">Rp.850.000</p>
+                        <a href="https://wa.me/6283153318613" class="btn btn-success rounded border">Pesan</a>
+                      </div>
                     </div>
                   </div>
-                </div>
               </div>
           </div>
         </section>
-      
+        <!-- End Course Section -->
+        
 
-        <!-- Start Content -->
-        <section class="container mt-5 text-success bg-success text-light rounded p-5" id="Contact">
-          <div class="bg-success"></div>
-          <div class="row">
-            <div class="col-5">
-              <h2>Contact Us!</h2>
-              <form>
-                <div class="mb-3">
-                    <label for="name" class="form-label text-light">Name :</label>
-                    <input type="text" name="name" id="name" class="form-control">
-                </div>
-                <div class="mb-3">            
-                  <label for="email" class="form-label text-light">email :</label>
-                  <input type="emal" name="email" id="email" class="form-control">
-                </div>
-
-                <div class="mb-3">
-                  <label for="message" class="form-label">Message :</label>
-                  <textarea name="message" id="message" cols="30" rows="4" class="form-control"></textarea>
-                </div>
-                <button type="submit" class="btn btn-light">Submit</button>
-              </form>
-            </div>
-
-            <div class="col-lg-5 col-md-2 col-sm-2 mb-5">
-             <iframe class="rounded m-5 " src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.232081791456!2d114.58610517378324!3d-3.2926044411080655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2de4232f39b7b359%3A0x3aa11078b550d77a!2sBuild%20Tech%20Borneo%20(BTB)!5e0!3m2!1sid!2sid!4v1691821307619!5m2!1sid!2sid" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <!-- Start Contact Section -->
+        <section class="bg-body-secondary py-5" id="Contact">
+          <div class="container pt-5 text-success bg-success text-light rounded p-5">
+            <div class="row">
+              <div class="col-md-5 fromLeft">
+                <h2 class="fw-bold">Contact Us!</h2>
+                <form>
+                  <div class="mb-3">
+                      <label for="name" class="form-label text-light">Name :</label>
+                      <input type="text" name="name" id="name" class="form-control">
+                  </div>
+                  <div class="mb-3">            
+                    <label for="email" class="form-label text-light">email :</label>
+                    <input type="emal" name="email" id="email" class="form-control">
+                  </div>
+    
+                  <div class="mb-3">
+                    <label for="message" class="form-label">Message :</label>
+                    <textarea name="message" id="message" cols="30" rows="4" class="form-control"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+              </div>
+    
+              <div class="col-lg-5 col-md-3 offset-md-1 fromRight">
+                <iframe class="rounded pt-4" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.232081791456!2d114.58610517378324!3d-3.2926044411080655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2de4232f39b7b359%3A0x3aa11078b550d77a!2sBuild%20Tech%20Borneo%20(BTB)!5e0!3m2!1sid!2sid!4v1691821307619!5m2!1sid!2sid" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
             </div>
           </div>
         </section>
-      </div>
         <!-- End Content -->
+      </div>
 
-        <footer class="bg-success mt-5">
-          <div class="container-fluid">
-            <div class="row justify-content-between">
-              <div class="col-4 fs-3 pt-3">
-               <p class="text-light fw-bold">&copy; Build Tech Borneo</p> 
-              </div>
-              <div class="col-3 fs-5 pt-3">
-                <ul class="list-unstyled d-flex">
-                  <li>
-                    <a class="text-decoration-none text-light" href="">Privacy</a>
-                  </li>
-                  <li class="mx-3">
-                    <a class="text-decoration-none text-light" href="">Contact Us</a>
-                  </li>
-                  <li>
-                    <a class="text-decoration-none text-light" href="">Get</a>
-                  </li>
-                </ul>
-              </div>
+      <!-- Start Footer -->
+      <footer class="bg-success">
+        <div class="container-fluid">
+          <div class="row justify-content-between">
+            <div class="col-md-4 fs-3 pt-3">
+             <p class="text-light fw-bold">&copy; Build Tech Borneo</p> 
+            </div>
+            <div class="col-md-3 fs-5 pt-3">
+              <ul class="list-unstyled d-flex justify-content-center">
+                <li>
+                  <a class="text-decoration-none text-light" href="#">Privacy</a>
+                </li>
+                <li class="mx-3">
+                  <a class="text-decoration-none text-light" href="#">Contact Us</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none text-light" href="#">Get</a>
+                </li>
+              </ul>
             </div>
           </div>
-        </footer>
+        </div>
+      </footer>
+      <!-- End Footer -->
 
 
-
-
-       <!-- Javascript Bootsrap -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
-        <script src="bootstrap/js/bootstrap.bundle.min.js" type=""></script>
-</body>
+       <!-- Bootsrap 5.1.3 -->
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+       <!-- Scroll Reveal -->
+       <script src="https://unpkg.com/scrollreveal"></script>
+       <!-- My Javascript -->
+       <script src="./script.js"></script>
+    </body>
 </html>
